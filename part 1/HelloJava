@@ -1,0 +1,19 @@
+#!/usr/bin/java --source 18
+
+public class HelloJava {
+
+    public static void main(String[] args) {
+        System.out.println("Hello " + args[0]);
+    }
+}
+
+   /* On a Unix-like operating system, a single-file source-code application,
+   can also be launched as a shebang file like a script. Within the java source file,
+    as the first line in the file add:
+     path/to/java/home --source <version> like in the exmaple above.
+
+     The file cannot have .java as its file extension, and must also be executable chmod +x. With that,
+
+     it can be launched with:
+                              ./HelloJava
+    */
